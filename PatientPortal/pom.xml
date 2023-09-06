@@ -70,14 +70,13 @@
 			<artifactId>jjwt-api</artifactId>
 			<version>0.11.5</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlin-jupyter-api -->
+		<!-- https://mvnrepository.com/artifact/org.python/jython -->
+		<!-- https://mvnrepository.com/artifact/net.sf.py4j/py4j -->
 		<dependency>
-			<groupId>org.jetbrains.kotlinx</groupId>
-			<artifactId>kotlin-jupyter-api</artifactId>
-			<version>0.12.0-55</version>
-			<scope>runtime</scope>
+			<groupId>net.sf.py4j</groupId>
+			<artifactId>py4j</artifactId>
+			<version>0.10.9.7</version>
 		</dependency>
-
 	</dependencies>
 
 	<build>
