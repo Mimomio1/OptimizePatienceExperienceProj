@@ -4,6 +4,7 @@ spring:
     password: Retrate123
     url: jdbc:mysql://localhost:3306/patientPortalDB
     username: root
+    static-locations: classpath:/static/,classpath:/notebooks/
 
 server:
   port: 9015
